@@ -1,6 +1,6 @@
 # 🌟 **Trabajos Prácticos - Sintaxis y Semántica de los Lenguajes** 🌟
 
-¡Bienvenido a mi repositorio! Aquí encontrarás los trabajos prácticos que desarrollé durante la cursada de **Sintaxis y Semántica de los Lenguajes**. Cada proyecto aborda diferentes aspectos de lenguajes formales y programación, combinando teoría y práctica. 💻
+¡Bienvenido a mi repositorio! Acá encontrarás los trabajos prácticos que desarrollé durante la cursada de **Sintaxis y Semántica de los Lenguajes**. Cada proyecto aborda diferentes aspectos de lenguajes formales y programación, combinando teoría y práctica. 💻
 
 ---
 
@@ -20,12 +20,12 @@
   - Manejo de estructuras dinámicas en C.
   - Generación de cadenas en base a reglas.
 - **Cómo ejecutarlo:**
-  1. Dirígete al directorio `TP1`.
-  2. Ejecuta el programa:  
+  1. Ir al directorio `TP1`.
+  2. Ejecutar el programa:  
      ```bash
      ./main.c
      ```
-  3. Ingresa las reglas de la gramática según las indicaciones del programa.
+  3. Ingresar las reglas de la gramática según las indicaciones del programa.
 
 ---
 
@@ -35,12 +35,12 @@
   - Uso avanzado de herramientas como `grep` y `sed`.
   - Validación y transformación de texto en el shell.
 - **Cómo ejecutarlo:**
-  1. Dirígete al directorio `TP2`.
+  1. Ir al directorio `TP2`.
   2. Ejecútalo con:  
      ```bash
      ./script.sh
      ```
-  3. Sigue las instrucciones en pantalla para probar diferentes patrones.
+  3. Seguir las instrucciones en pantalla para probar diferentes patrones.
 
 ---
 
@@ -51,18 +51,18 @@
   - Análisis sintáctico con **Bison**.
   - Construcción de un intérprete funcional para un lenguaje específico.
 - **Cómo ejecutarlo:**
-  1. Dirígete al directorio `TP3`.
-  2. Genera los archivos necesarios:  
+  1. Ir al directorio `TP3`.
+  2. Generar los archivos necesarios:  
      ```bash
      flex scanner.l
      bison -d parser.y
      gcc -o micro parser.tab.c lex.yy.c TS.c
      ```
-  3. Ejecútalo:  
+  3. Ejecutarlo:  
      ```bash
      ./micro
      ```
-  4. Ingresa el código en lenguaje MICRO según las reglas soportadas.
+  4. Ingresar el código en lenguaje MICRO según las reglas soportadas.
 
 ---
 
